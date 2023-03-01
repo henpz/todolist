@@ -1,0 +1,52 @@
+.header {
+    background-color: rgb(189, 189, 189);
+    height: 250px;
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h3 {
+    font-size: 40px;
+}
+
+.task-container{
+  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 40px 20px;
+}
+
+ .btCriar{
+  text-decoration: none;
+    width: 220px;
+    border: #fff;
+    border: 2px solid;
+    margin: 30px;
+    position: relative;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    font-weight: 400;
+}
+
+.btCriar:hover {
+  color: black;
+  width: 240px;
+  transition: 0.5s;
+  letter-spacing: 0.25em;
+  background-color: rgb(242, 242, 245);
+  box-shadow: 0 0 15px;
+} 
